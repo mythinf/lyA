@@ -21,6 +21,16 @@ header img {
   width: 5%;
 }
 
+body{
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+.content{
+  outline: 1px solid red;
+}
+.box{
+  outline: 1px solid green;
+}
 #seccion1  {
   background-image:url(../assets/images/hero.gif);
 }
@@ -63,4 +73,35 @@ a {
 /*Cuando se posiciona el cursor sobre el menú el color de la letra cambia*/
 a:hover{
   color:#FF00BF;
+#seccion2  {
+  background:linear-gradient(#76278F, #2B1E66);
+  color: #fff;
+  position: relative;
+}
+.text{
+  left: 10px;
+  outline: 1px solid pink;
+  width: 400px;
+  height: 560px;
+}
+
+figure{
+  outline: 1px solid pink;
+  width: 480px;
+  height: 560px;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+.photo2{
+  width: 340px;
+  height: 500px;
+}
+
+
+footer{
+  outline: 1px solid pink;
+}
+.list{
+  display: inline-block;
 }
