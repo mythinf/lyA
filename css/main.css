@@ -18,10 +18,12 @@ body{
   position: relative;
 }
 .text{
+  left: 10px;
   outline: 1px solid pink;
   width: 400px;
   height: 560px;
 }
+
 figure{
   outline: 1px solid pink;
   width: 480px;
