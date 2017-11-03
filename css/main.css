@@ -8,7 +8,7 @@
 /* Encabezado */
 header {
   /* Ocupa todo el ancho del cuerpo */
-  outline: 1px solid white;
+  /*outline: 1px solid white;*/
   width: 100%;
   height: 115px;
   background-color: inherit;
@@ -47,7 +47,7 @@ li {
 }
 /*Boton del encabezado*/
 li button {
-  border: 1px solid white;
+  /*border: 1px solid white;*/
   color: white;
   border-radius: 10px;
   padding: 10px;
@@ -56,7 +56,7 @@ li button {
   margin-bottom: 25px;
 }
 
-a {
+li a {
   /*Quitando el subrayado*/
   text-decoration: none;
   font-size: 20px;
@@ -64,7 +64,7 @@ a {
   color: #fff;
 }
 /*Cuando se posiciona el cursor sobre el menú el color de la letra cambia*/
-a:hover{
+li a:hover{
   color:#FF00BF;
 }
 #seccion1 {
@@ -81,18 +81,39 @@ a:hover{
   background-color: #fff;
   right: 0;
 }
+div h1{
+  color: #352384;
+}
+div h4{
+  color: #728099;
+}
 #seccion2  {
   background:linear-gradient(#76278F, #2B1E66);
   color: #fff;
 }
+div button{
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #FF00BF;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.sign-up-text{
+ display: inline-block;
+ margin: 10px;
+}
+div h3{
+  font-size: 15px;
+}
 .text{
-  outline: 1px solid pink;
+  /*outline: 1px solid pink;*/
   width: 400px;
   height: 560px;
 }
 
 figure{
-  outline: 1px solid pink;
+  /*outline: 1px solid pink;*/
   width: 480px;
   height: 560px;
 }
