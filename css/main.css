@@ -16,8 +16,7 @@ header {
   /* Posicionamiento fijo */
  position: fixed;
   /* Se aplica para que no genere un espacio en la parte superior*/
-/*top:0;
-*/
+ top:0;
 }
 
 header img {
@@ -41,8 +40,6 @@ ul {
   margin: 0;
   padding:0;
   line-height: 25px;
-  /*Le devuelve al elemento contenedor para que vuelva a ser bloque*/
-  overflow: auto;
 }
 
 li {
@@ -73,13 +70,15 @@ li a {
 li a:hover{
   color:#FF00BF;
 }
+/*-------------creando estilo a la seccion 1----------------- */
 #seccion1 {
   background-image:url(../assets/images/hero.gif);
-  -moz-background-size:100% 100%;
+  -moz-background-size:100% 100%; /* imagen de fondo*/
   height: 650px;
   width: 100%;
   background-size: cover;
 }
+     /*--creando estilo a la caja de registro (sign-up)--*/
 .sign-up{
   /*outline: 1px solid red;*/
   width: 560px;
@@ -95,10 +94,7 @@ div h1{
 div h4{
   color: #728099;
 }
-#seccion2  {
-  background:linear-gradient(#76278F, #2B1E66);
-  color: #fff;
-}
+
 div button{
   color: white;
   border-radius: 10px;
@@ -114,23 +110,74 @@ div button{
 div h3{
   font-size: 15px;
 }
-.text{
-  /*outline: 1px solid pink;*/
-  width: 400px;
-  height: 560px;
+/*-------------creando estilo a la seccion 2----------------- */
+#seccion2  {
+  background:linear-gradient(#76278F, #2B1E66);
+  color: #fff;
+  height: 650px;
+  width: 100%;
+  position: relative;
 }
-
-figure{
-  /*outline: 1px solid pink;*/
-  width: 480px;
-  height: 560px;
+#seccion2 h2{
+  font-size: 25px;
+}
+.text{
+  width: 400px;
+  position: absolute;
+  top: 60px;
+  left: 200px;
+}
+.paragraph{
+  margin-bottom: 50px;
+}
+   /*-------cuadrando la imagen de celular (image-phone)-------*/
+.image-phone {
+  width: 400px;
+  height: 550px;
+  position: absolute;
+  top: 60px;
+  left: 700px;
 }
 .photo2{
   width: 340px;
   height: 500px;
 }
+/*-------------creando estilo a la seccion 3----------------- */
+#seccion3  {
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+#seccion3 text{
+height: 400px;
+width: 200px;
+margin: 0;
 
+}
+/*-------------creando estilo a la seccion 4----------------- */
+#seccion4  {
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+#seccion4 text{
+height: 400px;
+width: 200px;
+margin: 0;
+}
+/*-------------creando estilo a la seccion 5----------------- */
+#seccion5  {
+  height:400px;
+  width: 100%;
+  position: relative;
+}
+#seccion5 text{
+height: 400px;
+width: 200px;
+margin: 0;
 
+}
+/*-------------creando estilo al footer----------------- */
 footer{
   outline: 1px solid pink;
 }
